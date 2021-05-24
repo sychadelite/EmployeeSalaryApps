@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Employee Salary Apps</string>
+    <string name="developers">Developed by Mohammad Barj Lazuardi Dindashwara</string>
+    <string name="pegawai">PEGAWAI</string>
+    <string name="golongan">GOLONGAN</string>
+    <string name="viewAllEmp">ALL EMPLOYEES</string>
+    <string name="viewEmp">EMPLOYEE</string>
+    <string name="viewAllGol">ALL GOLONGAN</string>
+    <string name="viewGol">GOLONGAN</string>
+    <string name="user">USER</string>
+    <string name="intro">INTRODUCTION</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="cancel">CANCEL</string>
+    <string name="forgot_pass">FORGOT PASSWORD</string>
+    <string name="register">REGISTER</string>
+    <string name="or">OR</string>
+    <string name="validation_icon">Validation</string>
+    <string name="stakeholder_desc">All of the stakeholders with their quotes</string>
+</resources>
