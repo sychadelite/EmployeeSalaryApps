@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.barjlazuardi.employeesalaryapps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EmployeeSalaryApps">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroductoryActivity"
+            android:theme="@style/Theme.EmployeeSalaryApps.NoStatusBar"/>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.EmployeeSalaryApps.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SignUpActivity"
+            android:theme="@style/Theme.EmployeeSalaryApps.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ForgotPassActivity"
+            android:theme="@style/Theme.EmployeeSalaryApps.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.EmployeeSalaryApps.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PegawaiActivity"
+            android:label="@string/pegawai"
+            android:theme="@style/Theme.EmployeeSalaryApps.FourthActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ViewAllEmpActivity"
+            android:label="@string/viewAllEmp"
+            android:theme="@style/Theme.EmployeeSalaryApps.FourthActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ViewEmpActivity"
+            android:label="@string/viewEmp"
+            android:theme="@style/Theme.EmployeeSalaryApps.FourthActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".GolonganActivity"
+            android:label="@string/viewGol"
+            android:theme="@style/Theme.EmployeeSalaryApps.FourthActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ViewAllGolActivity"
+            android:label="@string/viewAllGol"
+            android:theme="@style/Theme.EmployeeSalaryApps.FourthActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ViewGolActivity"
+            android:label="@string/golongan"
+            android:theme="@style/Theme.EmployeeSalaryApps.FourthActionBar"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>
