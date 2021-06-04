@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF3D00</color>
+    <color name="orangeSoft">#DC5329</color>
+    <color name="orangeMedium">#FFAB40</color>
+    <color name="yellow">#FFC400</color>
+    <color name="yellowMedium">#FFD740</color>
+    <color name="yellowLight">#FFFF00</color>
+    <color name="grey">#838080</color>
+
+    <color name="first">#EF9C52</color>
+    <color name="second">#DDD0CB</color>
+    <color name="third">#F4EBE7</color>
+    <color name="fourth">#191C32</color>
+
+    <color name="skyBlue">#2E3B65</color>
+    <color name="skyGrey">#565D67</color>
+    <color name="skyCloud">#E4EBF5</color>
+    <color name="skyPink">#E4E</color>
+    <color name="skyPurple">#5A105A</color>
+    <color name="skyOrange">#DA7900</color>
+
+    <color name="create">#558B2F</color>
+    <color name="update">#EF6C00</color>
+    <color name="delete">#C62828</color>
+    <color name="view">#0277BD</color>
+
+    <color name="yellowBrown">#987B1A</color>
+
+    <color name="lumut">#AEEA00</color>
+    <color name="valid">#00C853</color>
+
+
+
+</resources>
