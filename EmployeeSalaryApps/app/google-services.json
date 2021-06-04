@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163797508847",
+    "project_id": "employeesalaryapps",
+    "storage_bucket": "employeesalaryapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163797508847:android:e8d3d396793e1a564f711a",
+        "android_client_info": {
+          "package_name": "com.barjlazuardi.employeesalaryapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163797508847-ue5ogjvm33vlslhfppu6j6csrthuh46k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO4IEjUOXPAM2z6uITguCVSETPyKM09lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163797508847-ue5ogjvm33vlslhfppu6j6csrthuh46k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
