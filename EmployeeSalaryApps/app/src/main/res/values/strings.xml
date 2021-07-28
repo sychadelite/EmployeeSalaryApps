@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ESA</string>
+    <string name="developers">Developed by Mohammad Barj Lazuardi Dindashwara</string>
+    <string name="pegawai">PEGAWAI</string>
+    <string name="golongan">GOLONGAN</string>
+    <string name="viewAllEmp">ALL EMPLOYEES</string>
+    <string name="viewEmp">EMPLOYEE</string>
+    <string name="viewAllGol">ALL GOLONGAN</string>
+    <string name="viewGol">GOLONGAN</string>
+    <string name="user">USER</string>
+    <string name="intro">INTRODUCTION</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="cancel">CANCEL</string>
+    <string name="forgot_pass">FORGOT PASSWORD</string>
+    <string name="register">REGISTER</string>
+    <string name="or">OR</string>
+    <string name="validation_icon">Validation</string>
+    <string name="stakeholder_desc">All of the stakeholders with their quotes</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="okay">Okay</string>
+    <string name="exit_warning">Are you sure want to close this app ?</string>
+    <string name="data_consider_quit">The data will not be saved, Are you sure ?</string>
+    <string name="logout_warning">Are you sure want to log out ?</string>
+
+    <string name="success_title">SUCCESS</string>
+    <string name="warning_title">WARNING</string>
+    <string name="error_title">ERROR</string>
+
+    <string name="signup_info">Please fill out the fields with a valid information, because we will send you an email for verification</string>
+    <string name="signup_error">Please enter all of the details !</string>
+
+    <string name="forgot_pass_info">If you really forget your password to get login to this application, then you only need to enter your registered email and check the password reset email on your inbox</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
