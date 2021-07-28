@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewGolActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fourth"
+            android:textStyle="bold"
+            android:text="ID Golongan"/>
+
+        <EditText
+            android:id="@+id/et_id_golongan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:editable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fourth"
+            android:textStyle="bold"
+            android:text="Nama Golongan"/>
+
+        <EditText
+            android:id="@+id/et_name_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fourth"
+            android:textStyle="bold"
+            android:text="Gaji Pokok"/>
+
+        <EditText
+            android:id="@+id/et_sal_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fourth"
+            android:textStyle="bold"
+            android:text="Tunjangan Makan"/>
+
+        <EditText
+            android:id="@+id/et_meal_allowance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fourth"
+            android:textStyle="bold"
+            android:text="Tunjangan Keluarga"/>
+
+        <EditText
+            android:id="@+id/et_family_allowance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fourth"
+            android:textStyle="bold"
+            android:text="Tunjangan Jabatan"/>
+
+        <EditText
+            android:id="@+id/et_position_allowance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:elegantTextHeight="true"
+                app:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_bg"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_edit_note_24"/>
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Delete"
+                android:textColor="@color/white"
+                app:backgroundTint="@null"
+                android:backgroundTint="@color/delete"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/round_bg"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_delete_forever_24"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

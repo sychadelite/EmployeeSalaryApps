@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reels_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foregroundTint="@color/gray"
+    android:foreground="?android:attr/selectableItemBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp">
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/your_story"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/your_story_profile_pic"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:src="@drawable/barj"-->
+<!--            app:civ_border_color="@color/fourth"-->
+<!--            app:civ_border_width="1dp" />-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:layout_marginStart="45dp"-->
+<!--            android:src="@drawable/ic_baseline_add_24"-->
+<!--            app:civ_circle_background_color="@color/skyBlue"-->
+<!--            app:civ_border_color="@color/white"-->
+<!--            app:civ_border_width="1dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txt_your_story"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_below="@id/your_story_profile_pic"-->
+<!--            android:textSize="12sp"-->
+<!--            android:text="Your Story"-->
+<!--            android:textAlignment="center" />-->
+
+<!--    </RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:elevation="4dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/barj"
+                app:civ_border_width="1dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:text="barjlazuardi"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

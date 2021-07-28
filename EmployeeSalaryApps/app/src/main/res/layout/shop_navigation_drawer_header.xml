@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/fourth"
+    android:gravity="bottom"
+    android:padding="20dp">
+    
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/img_obf2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shopping"
+        android:fontFamily="@font/metal_mania_regular"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="com.barjlazuardi.employeesalaryapps.com"
+        android:fontFamily="@font/sirin_stencil_regular"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+
+</LinearLayout>
